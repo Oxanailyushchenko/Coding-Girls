@@ -1,0 +1,63 @@
+.header{
+	background-image: url('./Fitness/images/background.jpg');
+	height: 890px;
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+
+.link{
+	color: white;
+	font-size:13px;
+	text-transform: uppercase;
+	text-decoration: none;
+
+}
+
+.menu{
+	display: flex;
+	justify-content: space-between;
+	width: 500px;
+	list-style: none;
+}
+
+.container{
+	display: flex;
+	justify-content: space-between;
+}
+
+.title{
+	color: #ffffff;
+	font-size: 40px;
+	margin-top: 500px;
+}
+
+.subtitle{
+	color: #ffffff;
+	font-size: 15px;
+}
+
+.benefits{
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	color: #ffffff;
+	width: 900px;
+	margin: 0 auto;
+}
+
+.main{
+	background-color: #a2ca28;
+}
+
+.read_more{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.benefits_title{
+	font-size: 24px;
+}
+
+.benefits_text{
+	font-size: 14px:;
+}
