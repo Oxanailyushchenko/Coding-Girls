@@ -1,0 +1,122 @@
+.header{
+	background-image: url('./Fitness/images/background.jpg');
+	height: 890px;
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+
+.link{
+	color: white;
+	font-size:13px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.menu{
+	display: flex;
+	justify-content: space-between;
+	width: 500px;
+	list-style: none;
+}
+
+.container{
+	display: flex;
+	justify-content: space-between;
+	padding: 50px;
+}
+
+.header_background_image{
+	background-size: contain; 
+}
+
+.title{
+	color: #ffffff;
+	font-size: 40px;
+	margin-top: 500px;
+	padding-left: 50px;
+	text-transform: uppercase;
+
+}
+
+.subtitle{
+	color: #ffffff;
+	font-size: 15px;
+	padding-left: 50px;
+	text-transform: uppercase;
+}
+
+.benefits{
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	color: #ffffff;
+	width: 1188px;
+	margin: 0 auto;
+	padding: 50px;
+}
+
+.main{
+	background-color: #a2ca28;
+}
+
+.read_more{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.benefits_title{
+	font-size: 24px;
+	padding: 0px;
+
+}
+
+.benefits_text{
+	font-size: 14px;
+	display: flex;
+	color: #ffffff;
+	margin: 0 auto;
+	width: 297px;
+	padding-bottom: 20px;
+
+}
+
+.block{
+	display: flex;
+	justify-content: space-between;
+	background-color: #ffffff;
+	width: 1188px;
+	height: 394px;
+	margin: 0 auto;
+}
+
+.block_img{
+	height: 394px;
+}
+
+.block_content{
+	text-align: center;
+	padding: 68px;
+	width: 394px;
+	margin: 0 auto;
+}
+
+.block_title{
+	color: #a2ca28;
+	text-transform: uppercase;
+	font-size: 35px;
+}
+
+.block_subtitle{
+	color: #fd634e;
+	text-transform: uppercase;
+	font-size: 14px;
+}	
+
+.block_text{
+	font-size: 14px;
+}
+
+.block_link{
+	color: #a2ca28;
+	font-size: 14px;
+}
