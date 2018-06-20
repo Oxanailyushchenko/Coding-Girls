@@ -1,0 +1,291 @@
+.header{
+	background-image: url('./Fitness/images/background.jpg');
+	height: 890px;
+	background-size:cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.link{
+	color: white;
+	font-size:13px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.menu{
+	display: flex;
+	justify-content: space-between;
+	width: 500px;
+	list-style: none;
+}
+
+.container{
+	display: flex;
+	justify-content: space-between;
+	padding: 50px;
+}
+
+.header_background_image{
+	background-size: contain; 
+}
+
+.title{
+	color: #ffffff;
+	font-size: 40px;
+	text-transform: uppercase;
+	position: absolute;
+	bottom: 120px;
+	left: 50px;
+
+}
+
+.subtitle{
+	color: #ffffff;
+	font-size: 15px;
+	text-transform: uppercase;
+	position: absolute;
+	bottom: 110px;
+	left: 220px;
+}
+
+.benefits{
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	color: #ffffff;
+	width: 1188px;
+	margin: 0 auto;
+	padding: 50px;
+}
+
+.main{
+	background-color: #a2ca28;
+}
+
+.read_more{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.benefits_title{
+	font-size: 24,4px;
+	padding: 0px;
+
+}
+
+.benefits_text{
+	font-size: 14px;
+	display: flex;
+	color: #ffffff;
+	margin: 0 auto;
+	width: 297px;
+	padding-bottom: 20px;
+
+}
+
+.block{
+	display: flex;
+	justify-content: space-between;
+	background-color: #ffffff;
+	width: 1188px;
+	height: 394px;
+	margin: 0 auto;	
+}
+
+.img1:{
+	background-image: url(./Fitness/images/img1.jpg);
+	background-size: 890px 394px;
+	position: relative;
+	width:890px;
+	height: 394px;
+}
+
+.img1:hover{
+	content: '';
+ 	display: block;
+ 	position: absolute;
+ 	background: rgba(0, 0, 0, 0.5);
+ 	opacity: 0,5;
+	width: 890px;
+	height: 394px;
+}
+
+.img2{
+	background-image: url(./Fitness/images/img2.jpg);
+	background-size: contain;
+	width:890px;
+	height:394px;
+}
+
+.img2:before{
+	content: '';
+ 	display: block;
+ 	background: #000000;
+ 	opacity: 0,5;
+	width: 890px;
+	height:394px;
+}
+
+.block_content{
+	text-align: center;
+	padding: 50px;
+	width: 400px;
+	margin: 0 auto;
+}
+
+.block_title{
+	color: #a2ca28;
+	text-transform: uppercase;
+	font-size: 35px;
+}
+
+.block_subtitle{
+	color: #fd634e;
+	text-transform: uppercase;
+	font-size: 14px;
+}	
+
+.block_text{
+	font-size: 14px;
+}
+
+.block_link{
+	color: #a2ca28;
+	font-size: 14px;
+}
+
+.footer{
+	height: 150px;
+	background-color: #0d1119;
+}
+
+.footer_content{
+	display: flex;
+	justify-content: space-between	;
+	width: 1188px;
+	margin: 0 auto;
+	position: relative;
+	top: 40px;
+	left: 50px;
+}
+
+.form{
+	display: flex;
+}
+
+.input{
+	border: 1px #0d1119;
+	padding-top: 1px;
+	padding-left: 15px;
+	padding-right: 25px;
+	margin-right: 5px;
+	margin-top: 23px;
+	border-radius: 2px 2px 2px 2px;
+
+}
+
+.button{
+	color: white;
+	background-color: #a2ca28;
+	border: 1px #0d1119;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 25px;
+	padding-left: 15px;
+	margin-right: 10px;
+	margin-top: 23px;
+	border-radius: 2px 2px 2px 2px;
+}
+
+.sociallinks{
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	right: 100px;
+}
+
+.socialicon_fb{
+	background: #2e3192;
+	width: 40px;
+	height: 40px;
+	display: block;
+	justify-content: space-between;
+	margin-right: 8px;
+	border-radius: 50%;
+}
+
+.socialicon_fb:before{
+	content: '';
+	background-image: url(https://static1.squarespace.com/static/588e3804893fc08d03a4bf17/t/58e5aa66b3db2bcaeea285c3/1491446682303/Icon-FB.png);
+	background-size: 40px 40px;
+	width: 25px;
+	height: 30px;
+	position: absolute;
+
+}
+
+.socialicon_tw{
+	background: #00aeef;
+	width: 40px;
+	height: 40px;
+	display: block;
+	justify-content: space-between;
+	margin-right: 8px;
+	border-radius: 50%;
+}
+
+.socialicon_tw:before{
+	content: '';
+	background-image: url(https://legoutdesautres.lehavre.fr/sites/default/themes/minisite/images/common/socials/twitter.png);
+	background-size: 40px 40px;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+}
+
+.socialicon_yt{
+	background: #ed3123;
+	width: 40px;
+	height: 40px;
+	display: block;
+	justify-content: space-between;
+	margin-right: 8px;
+	border-radius: 50%;
+	position: relative;
+}
+
+.socialicon_yt:before{
+	content: '';
+	background-image: url(http://www.capecod.com.au/wp-content/uploads/2017/02/youtube-icon-300x300.png);
+	background-size: 28px 28px;
+	background-repeat: no-repeat;
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	top: 6px;
+	left: 6px;
+}
+
+.socialicon_ln{
+	background: #171a8f;
+	width: 40px;
+	height: 40px;
+	display: block;
+	justify-content: space-between;
+	margin-right: 8px;
+	border-radius: 50%;	
+	position: relative;
+}
+
+.socialicon_ln:before{
+	content: '';
+	background-image: url(https://c.fastcdn.co/u/0bc8903d/27002671-0-linkedInicon.png);
+	background-size: 35px 35px;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 1px;
+	left: 3px;
+}
