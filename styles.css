@@ -101,12 +101,10 @@
 	height: 394px;
 }
 
-.img1:hover{
+.img1:before{
 	content: '';
- 	display: block;
  	position: absolute;
- 	background: rgba(0, 0, 0, 0.5);
- 	opacity: 0,5;
+ 	background-color: rgba(0, 0, 0, 0.5);
 	width: 890px;
 	height: 394px;
 }
@@ -120,11 +118,10 @@
 
 .img2:before{
 	content: '';
- 	display: block;
- 	background: #000000;
- 	opacity: 0,5;
+ 	position: absolute;
+ 	background-color: rgba(0, 0, 0, 0.5);
 	width: 890px;
-	height:394px;
+	height: 394px;
 }
 
 .block_content{
