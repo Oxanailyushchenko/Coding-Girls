@@ -1,93 +1,91 @@
 @font-face{
 	src: url(./fonts/AvenirNextCyr-Regular.woff);
-	font-family: AvenirNext;
-	font-weight: 400;
+	font-family: AvenirNextCyr-Regular;
 }
 
 @font-face{
 	src: url(./fonts/OpenSans-Bold.ttf);
-	font-family: OpenSans;
-	font-weight: 700;
+	font-family: OpenSans-Bold;
 }
 
 @font-face{
 	src: url(./fonts/OpenSans-Regular.ttf);
-	font-family: OpenSans;
-	font-weight: 400;
+	font-family: OpenSans-Regular;
 }
 
 @font-face{
 	src: url(./fonts/ProximaNova-Reg.ttf);
-	font-family: ProximaNova;
-	font-weight: 400;
+	font-family: ProximaNova-Reg;
 }
 
 
 @font-face{
 	src: url(.fonts/Montserrat-Regular.ttf);
 	font-family: Montserrat-Regular;
-	font-weight: 400;
 }
 
 @font-face{
 	src: url(./fonts/OpenSans-Light.ttf);
-	font-family: OpenSans;
-	font-weight: 100
+	font-family: OpenSans-Light;
 }
 
+@font-face{
+src: url(.fonts/ProximaNova-Semibold.ttf);
+font-family: ProximaNova-Semibold;
+}
+
+
 .title{
-	font-family: AvenirNext, sans-serif;
-	font-weight: 300;
+	font-family: OpenSans-Regular, sans-serif;
+	font-weight: 400;
 
 }
 
 .subtitle{
 	font-family: OpenSans-Bold, sans-serif;
-	font-weight: 700;
 }
 
 .benefits_title{
 	font-family: OpenSans-Regular, sans-serif;
 	font-weight: 400;
+
 }
 
 .benefits_text{
 	font-family: ProximaNova-Reg, sans-serif;
-	font-size: 400;
 }
 
 .read_more{
 	font-family: OpenSans-Regular, sans-serif;
-	font-weight: 400;
 }
 
 .block_subtitle{
 	font-family: Montserrat-Regular, sans-serif;
-	font-weight: 400;
 }
 
 .block_title{
-	font-family: OpenSans;
-	font-weight: 100;
+	font-family: OpenSans-Light, sans-serif;
+font-weight: 100;
 }
 
 .block_text{
-	font-family: OpenSans;
-	font-size: 400;
+	font-family: OpenSans-Regular, sans-serif;
 }
+
 
 .block_link{
 	font-family: OpenSans-Regular, sans-serif;
-	font-weight: 400;
 }
 
 .form{
-	font-family: ProximaNova, sans-serif;
-	font-size: 400; 
+	font-family: ProximaNova-Reg, sans-serif;
 	color: #a7b3b9;
 }
 
+.button{
+	font-family: ProximaNova-Semibold, sans-serif;
+}
+
 .menu{
-	font-family: AvenirNext, sans-serif;
-	font-weight: 300;
+	font-family: AvenirNextCyr-Regular, sans-serif;
 }
