@@ -39,6 +39,14 @@
 	left: 50px;
 }
 
+.palka1{
+	color: #a2ca28;
+}
+
+.palka2{
+	color: #fd634e;
+}
+
 .subtitle{
 	color: #ffffff;
 	font-size: 15px;
@@ -133,10 +141,16 @@
     color: #fd634e;
 }
 
+.image_text2{
+	font-size: 12px;
+    padding-top: 10px;
+    color: #ffffff;
+}
+
 .logo_section{
 	top: 25;
     right: 0;
-    background-color:#fd634e;
+    color:#fd634e;
  }
 
 .img1:hover .text-hover{
@@ -305,6 +319,24 @@
 	border-radius: 50%;
 }
 
+	@keyframes socialicon_fb{
+	0%{
+	background:#2e3192}
+	 
+  100% {
+    background-color: #0d1119;
+  }
+}
+
+
+.socialicon_fb:hover{
+	animation-name: socialicon_fb;
+	animation-duration: 0.5s;
+	animation-direction: normal;
+	animation-iteration-count: 1;	
+	animation-fill-mode: forwards;
+}
+
 .socialicon_fb:before{
 	content: '';
 	background-image: url(https://static1.squarespace.com/static/588e3804893fc08d03a4bf17/t/58e5aa66b3db2bcaeea285c3/1491446682303/Icon-FB.png);
@@ -324,6 +356,24 @@
 	margin-right: 8px;
 	border-radius: 50%;
 }
+	@keyframes socialicon_tw{
+	0%{
+	background:#00aeef}
+	 
+  100% {
+    background-color: #0d1119;
+  }
+}
+
+
+.socialicon_tw:hover{
+	animation-name: socialicon_tw;
+	animation-duration: 0.5s;
+	animation-direction: normal;
+	animation-iteration-count: 1;	
+	animation-fill-mode: forwards;
+}
+
 
 .socialicon_tw:before{
 	content: '';
@@ -343,6 +393,24 @@
 	margin-right: 8px;
 	border-radius: 50%;
 	position: relative;
+}
+
+	@keyframes socialicon_yt{
+	0%{
+	background:#ed3123}
+	 
+  100% {
+    background-color: #0d1119;
+  }
+}
+
+
+.socialicon_yt:hover{
+	animation-name: socialicon_yt;
+	animation-duration: 0.5s;
+	animation-direction: normal;
+	animation-iteration-count: 1;	
+	animation-fill-mode: forwards;
 }
 
 .socialicon_yt:before{
@@ -368,6 +436,23 @@
 	position: relative;
 }
 
+	@keyframes socialicon_ln{
+	0%{
+	background:#171a8f}
+	 
+  100% {
+    background-color: #0d1119;
+  }
+}
+
+
+.socialicon_ln:hover{
+	animation-name: socialicon_ln;
+	animation-duration: 0.5s;
+	animation-direction: normal;
+	animation-iteration-count: 1;	
+	animation-fill-mode: forwards;
+}
 .socialicon_ln:before{
 	content: '';
 	background-image: url(https://c.fastcdn.co/u/0bc8903d/27002671-0-linkedInicon.png);
