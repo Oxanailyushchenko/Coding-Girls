@@ -3,7 +3,6 @@
 	height: 890px;
 	background-size:cover;
 	background-repeat: no-repeat;
-	position: relative;
 }
 
 .link{
@@ -36,9 +35,11 @@
 	color: #ffffff;
 	font-size: 40px;
 	text-transform: uppercase;
-	position: absolute;
-	bottom: 140px;
+	padding-bottom: 30px;
 	left: 112px;
+	top: 565px;
+	position: relative;
+
 }
 
 .palka1{
@@ -46,16 +47,17 @@
 }
 
 .palka2{
-	color: #fd634e;
+  color: #fd634e;
 }
-
+  
 .subtitle{
 	color: #ffffff;
 	font-size: 15px;
+	padding-left: 50px;
 	text-transform: uppercase;
 	position: absolute;
-	bottom: 132px;
-	left: 280px;
+	padding-top: 500px;
+	left: 228px;
 }
 
 .benefits{
@@ -106,8 +108,8 @@
 	width: 1188px;
 	height: 394px;
 	margin: 0 auto;	
+	padding: 0px;
 }
-
 
 .text-hover{
   color: white;
@@ -234,6 +236,12 @@
   margin: 0;
   margin-top: -28px;
 
+=======
+	margin: 0 auto;
+}
+
+.block_img{
+	height: 394px;
 }
 
 .block_content{
@@ -241,6 +249,7 @@
 	padding: 50px;
 	width: 394px;
 	height: 394px;
+	padding: 50px;
 	margin: 0 auto;
 }
 
