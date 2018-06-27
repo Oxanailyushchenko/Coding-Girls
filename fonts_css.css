@@ -14,13 +14,13 @@
 }
 
 @font-face{
-	src: url(./fonts/ProximaNova-Reg.ttf);
+	src: url(./fonts/ProximaNova-Reg.otf);
 	font-family: ProximaNova-Reg;
 }
 
 
 @font-face{
-	src: url(./fonts/Montserrat-Regular.ttf);
+	src: url(./fonts/Montserrat-Regular.otf);
 	font-family: Montserrat-Regular;
 }
 
@@ -30,8 +30,13 @@
 }
 
 @font-face{
-src: url(./fonts/ProximaNova-Semibold.ttf);
-font-family: ProximaNova-Semibold;
+	src: url(./fonts/ProximaNova-Semibold.ttf);
+	font-family: ProximaNova-Semibold;
+}
+
+@font-face{
+	src: url(./fonts/entypo-social.ttf);
+	font-family: entypo-social;
 }
 
 
@@ -56,7 +61,7 @@ font-family: ProximaNova-Semibold;
 }
 
 .read_more{
-	font-family: ProximaNova-Regular, sans-serif;
+	font-family: ProximaNova-Reg, sans-serif;
 }
 
 .block_subtitle{
@@ -65,7 +70,7 @@ font-family: ProximaNova-Semibold;
 
 .block_title{
 	font-family: OpenSans-Light, sans-serif;
-font-weight: 100;
+	font-weight: 100;
 }
 
 .block_text{

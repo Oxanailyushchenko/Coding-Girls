@@ -35,11 +35,9 @@
 	color: #ffffff;
 	font-size: 40px;
 	text-transform: uppercase;
-	padding-bottom: 30px;
 	left: 112px;
 	top: 565px;
 	position: relative;
-
 }
 
 .palka1{
@@ -53,11 +51,10 @@
 .subtitle{
 	color: #ffffff;
 	font-size: 15px;
-	padding-left: 50px;
 	text-transform: uppercase;
 	position: absolute;
-	padding-top: 500px;
-	left: 228px;
+	bottom: 417px;
+	left: 278px;
 }
 
 .benefits{
@@ -81,7 +78,7 @@
 	color: #ffffff;
 	text-decoration: none;
 	position: absolute;
-	padding-top: 30px;
+	top: 335px;
 }
 
 .benefits_title{
@@ -98,7 +95,6 @@
 	margin: 0 auto;
 	width: 297px;
 	padding-bottom: 20px;
-
 }
 
 .block{
@@ -112,15 +108,15 @@
 }
 
 .text-hover{
-  color: white;
-  opacity: 0;
-  position: absolute;
-  text-align: center;
-  transition: all 1s;
-  width: 100%;
-  top: 50%;
-  margin: 0;
-  margin-top: -13.5px;
+	color: white;
+	opacity: 0;
+	position: absolute;
+	text-align: center;
+	transition: all 1s;
+	width: 100%;
+	top: 50%;
+	margin: 0;
+ 	margin-top: -13.5px;
 }
 
 .img1{
@@ -160,7 +156,7 @@
 	top: 25;
     right: 0;
     color:#fd634e;
- }
+}
 
 .img1:hover .text-hover{
   opacity: 1;
@@ -179,8 +175,6 @@
 	height: 394px;
 	transition: all 1s;
 }
-
-
 
 .img2{
 	background: url(./Fitness/images/img2.jpg);
@@ -203,13 +197,12 @@
     left: 0;
 }
 .img2:hover .text-hover{
-  opacity: 1;
+	opacity: 1;
 }
 
 .img2:hover:before{
-  opacity: 1;
+	opacity: 1;
 }
-
 
 .img2:before{
 	content: '';
@@ -226,18 +219,15 @@
 }
 
 .text-hover{
-  color: white;
-  opacity: 0;
-  position: absolute;
-  text-align: center;
-  transition: all 1s;
-  width: 100%;
-  top: 50%;
-  margin: 0;
-  margin-top: -28px;
-
-=======
+	color: white;
+	opacity: 0;
+	position: absolute;
+	text-align: center;
+	transition: all 1s;
+	width: 100%;
+	top: 50%;
 	margin: 0 auto;
+	margin-top: -28px;
 }
 
 .block_img{
@@ -246,7 +236,6 @@
 
 .block_content{
 	text-align: center;
-	padding: 50px;
 	width: 394px;
 	height: 394px;
 	padding: 50px;
@@ -295,25 +284,28 @@
 }
 
 .input_name{
+	font-family: ProximaNova-Reg, sans-serif;
 	border: 1px #0d1119;
 	padding-left: 20px;
+	padding-bottom: 0px;
 	margin-right: 5px;
 	margin-top: 30px;
 	border-radius: 2px;
-	padding-bottom: 0px;
 }
 
 .input_email{
+	font-family: ProximaNova-Reg, sans-serif;
 	border: 1px #0d1119;
 	padding-left: 20px;
 	padding-right: 140px;
+	padding-bottom: 0px;
 	margin-right: 5px;
 	margin-top: 30px;
 	border-radius: 2px;
-	padding-bottom: 0px;
 }
 
 .button{
+	font-family: ProximaNova-Semibold, sans-serif;
 	color: white;
 	background-color: #a2ca28;
 	border: 1px #0d1119;
@@ -322,8 +314,7 @@
 	padding-bottom: 0px;
 	margin-right: 20px;
 	margin-top: 30px;
-	border-radius: 2px 2px 2px 2px;
-
+	border-radius: 2px;
 }
 
 .sociallinks{
@@ -344,11 +335,10 @@
 	margin-top:5px;
 }
 
-	@keyframes socialicon_fb{
-	0%{
-	background:#2e3192}
-	 
-  100% {
+@keyframes socialicon_fb{
+0%{
+	background:#2e3192} 
+100%{
     background-color: #0d1119;
   }
 }
@@ -371,7 +361,6 @@
 	top: 5px;
 	left: 5px;
 	position: absolute;
-
 }
 
 .socialicon_tw{
@@ -385,10 +374,10 @@
 	margin-right: 12px;
 	margin-top:5px;
 }
-	@keyframes socialicon_tw{
-	0%{
+@keyframes socialicon_tw{
+0%{
 	background:#00aeef}
-  100% {
+100% {
     background-color: #0d1119;
   }
 }
@@ -426,11 +415,10 @@
 	margin-top:5px;
 }
 
-	@keyframes socialicon_yt{
-	0%{
-	background:#ed3123}
-	 
-  100% {
+@keyframes socialicon_yt{
+0%{
+	background:#ed3123} 
+100%{
     background-color: #0d1119;
   }
 }
