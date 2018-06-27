@@ -1,0 +1,105 @@
+@font-face{
+	src: url(./fonts/AvenirNextCyr-Regular.woff);
+	font-family: AvenirNextCyr-Regular;
+}
+
+@font-face{
+	src: url(./fonts/OpenSans-Bold.ttf);
+	font-family: OpenSans-Bold;
+}
+
+@font-face{
+	src: url(./fonts/OpenSans-Regular.ttf);
+	font-family: OpenSans-Regular;
+}
+
+@font-face{
+	src: url(./fonts/ProximaNova-Reg.otf);
+	font-family: ProximaNova-Reg;
+}
+
+
+@font-face{
+	src: url(./fonts/Montserrat-Regular.otf);
+	font-family: Montserrat-Regular;
+}
+
+@font-face{
+	src: url(./fonts/OpenSans-Light.ttf);
+	font-family: OpenSans-Light;
+}
+
+@font-face{
+	src: url(./fonts/ProximaNova-Semibold.ttf);
+	font-family: ProximaNova-Semibold;
+}
+
+@font-face{
+	src: url(./fonts/entypo-social.ttf);
+	font-family: entypo-social;
+}
+
+
+.title{
+	font-family: OpenSans-Regular, sans-serif;
+	font-weight: 400;
+
+}
+
+.subtitle{
+	font-family: OpenSans-Bold, sans-serif;
+}
+
+.benefits_title{
+	font-family: OpenSans-Regular, sans-serif;
+	font-weight: 400;
+
+}
+
+.benefits_text{
+	font-family: ProximaNova-Reg, sans-serif;
+}
+
+.read_more{
+	font-family: ProximaNova-Reg, sans-serif;
+}
+
+.block_subtitle{
+	font-family: Montserrat-Regular, sans-serif;
+}
+
+.block_title{
+	font-family: OpenSans-Light, sans-serif;
+	font-weight: 100;
+}
+
+.block_text{
+	font-family: OpenSans-Regular, sans-serif;
+}
+
+
+.block_link{
+	font-family: OpenSans-Regular, sans-serif;
+}
+
+.image_text{
+	font-family: OpenSans-Regular, sans-serif;
+}
+
+.image_text2{
+	font-family: OpenSans-Regular, sans-serif;
+}
+
+
+.input{
+	font-family: ProximaNova-Reg, sans-serif;
+	color: #a7b3b9;
+}
+
+.button{
+	font-family: ProximaNova-Semibold, sans-serif;
+}
+
+.menu{
+	font-family: AvenirNextCyr-Regular, sans-serif;
+}
