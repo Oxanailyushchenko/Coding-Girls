@@ -32,12 +32,14 @@
 }
 
 .title{
+	font-family: AvenirNextCyr-Regular;
 	color: #ffffff;
 	font-size: 40px;
 	text-transform: uppercase;
 	left: 112px;
-	top: 565px;
+	top: 564px;
 	position: relative;
+	display: block;
 }
 
 .palka1{
@@ -53,7 +55,7 @@
 	font-size: 15px;
 	text-transform: uppercase;
 	position: absolute;
-	bottom: 417px;
+	top: 718px;
 	left: 278px;
 }
 
@@ -65,7 +67,7 @@
 	width: 1195px;
 	margin: 0 auto;
 	padding-top: 112px;
-	padding-bottom: 150px;
+	padding-bottom: 161px;
 	position: relative;
 }
 
@@ -93,6 +95,7 @@
 	display: flex;
 	color: #ffffff;
 	margin: 0 auto;
+	line-height: 180%;
 	width: 297px;
 	padding-bottom: 20px;
 }
@@ -238,29 +241,42 @@
 	text-align: center;
 	width: 394px;
 	height: 394px;
-	padding: 50px;
-	margin: 0 auto;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-top: 50px;
 }
 
 .block_title{
 	color: #a2ca28;
 	text-transform: uppercase;
 	font-size: 35px;
+	margin: 0px;
+	padding-top: 5px;
+	padding-bottom: 20px;
 }
 
 .block_subtitle{
+	padding-top: 5px;
 	color: #fd634e;
 	text-transform: uppercase;
 	font-size: 14px;
+	margin: 0px;
 }	
+
+.block_logo{
+    padding-top: 15px;
+}
 
 .block_text{
 	font-size: 14px;
+	line-height: 185%;
+	padding-bottom: -10px;
 }
 
 .block_link{
 	color: #a2ca28;
 	font-size: 14px;
+
 }
 
 .footer{
@@ -310,7 +326,7 @@
 	background-color: #a2ca28;
 	border: 1px #0d1119;
 	padding-right: 60px;
-	padding-left: 15px;
+	padding-left: 23px;
 	padding-bottom: 0px;
 	margin-right: 20px;
 	margin-top: 30px;
@@ -456,11 +472,11 @@
 	margin-top:5px;
 }
 
-	@keyframes socialicon_ln{
-	0%{
+@keyframes socialicon_ln{
+0%{
 	background:#171a8f}
 	 
-  100% {
+100% {
     background-color: #0d1119;
   }
 }
@@ -481,5 +497,5 @@
 	height: 40px;
 	position: absolute;
 	top: 7px;
-	left: 7px;
+	left: 9px;
 }

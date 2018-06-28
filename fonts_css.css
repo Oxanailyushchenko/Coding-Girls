@@ -1,49 +1,50 @@
 @font-face{
-	src: url(./fonts/AvenirNextCyr-Regular.woff);
 	font-family: AvenirNextCyr-Regular;
+	src: url('./fonts/AvenirNextCyr-Regular.woff') format('woff'),
+		 url('./fonts/AvenirNextCyr-Regular.eot') format('eot');
 }
 
 @font-face{
-	src: url(./fonts/OpenSans-Bold.ttf);
 	font-family: OpenSans-Bold;
+	src: url('./fonts/OpenSans-Bold.ttf') format('ttf');
+	
 }
 
 @font-face{
-	src: url(./fonts/OpenSans-Regular.ttf);
 	font-family: OpenSans-Regular;
-}
+	src: url('./fonts/OpenSans-Regular.ttf') format('ttf');
+}	
 
 @font-face{
-	src: url(./fonts/ProximaNova-Reg.otf);
 	font-family: ProximaNova-Reg;
+	src: url('./fonts/ProximaNova-Reg.otf') format('otf'),
+		 url('./fonts/ProximaNova-Reg.ttf') format('ttf');
 }
 
 
 @font-face{
-	src: url(./fonts/Montserrat-Regular.otf);
 	font-family: Montserrat-Regular;
+	src: url('./fonts/Montserrat-Regular.ttf') format('ttf'),
+		 url('./fonts/Montserrat-Regular.otf') format('otf');
 }
 
 @font-face{
-	src: url(./fonts/OpenSans-Light.ttf);
 	font-family: OpenSans-Light;
+	src: url('./fonts/OpenSans-Light.ttf');
+	
 }
 
 @font-face{
-	src: url(./fonts/ProximaNova-Semibold.ttf);
 	font-family: ProximaNova-Semibold;
+	src: url('./fonts/ProximaNova-Semibold.ttf') format('ttf'),
+		 url('./fonts/ProximaNova-Semibold.eot') format('eot'),
+		 url('./fonts/ProximaNova-Semibold.woff') format('woff');
 }
-
-@font-face{
-	src: url(./fonts/entypo-social.ttf);
-	font-family: entypo-social;
 }
 
 
 .title{
-	font-family: OpenSans-Regular, sans-serif;
-	font-weight: 400;
-
+	font-family: AvenirNextCyr-Regular, sans-serif;
 }
 
 .subtitle{
