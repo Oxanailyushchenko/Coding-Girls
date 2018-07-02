@@ -1,12 +1,13 @@
+
 var form_button = document.getElementById("button");
-form_button.addEventListener('click', Validate);
+var form_name = document.getElementById("name");
+var form_email = document.getElementById("email");
+var form = document.getElementById("form");
+
+form_button.addEventListener("click", Validate);
 
 function Validate(event){
 	event.preventDefault();
-	var form_name = document.getElementById("name");
-	var form_email = document.getElementById("email");
-
-	
 	var value = form_name.value;
 
 	if (!value){
@@ -28,14 +29,12 @@ function Validate(event){
 }
 
 function Display(event){
-	var form = document.getElementById("form");
 if (!submit){
 	form.style.display = "block";}
 else
 {
 	form.style.display = "none";}
 }
-
 
 form.addEventListener ('submit', Display);
 form.submit="alert('Спасибо, Ваше сообщение отправлено!')";
