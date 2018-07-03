@@ -6,7 +6,6 @@
 <link rel="stylesheet" href="./normalize.css">
 <link rel="stylesheet" href="./fonts_css.css">
 <link rel="stylesheet" href="./styles.css">
-<script src="./form.js"></script>
 </head>
 <body>
   <header class="header">
@@ -36,7 +35,7 @@
   <h2 class="subtitle">Yes, you can<span class="palka2" >/</span></h2>
   </header>
   <main class="main"> 
-    <section>
+    <section class="section">
     <ul class="benefits">
       <li>
       <img src="./Fitness/images/icon1.svg" alt="">
@@ -59,7 +58,7 @@
       <li>
       <img src="./Fitness/images/icon4.svg" alt="">
       <h3 class="benefits_title">Communicate</h3>
-      <p class="benefits_text">Easily manage your inspiration and<br> work-in-progress by dragging images into<br> projects and sharable client groups. Easily<br> manage your inspiration.</p>
+      <p class="benefits_text">Easily manage your inspiration and<br> work-in-progress by dragging images into<br> projects and sharable client groups. Easily</p>
       <a href="#" class="read_more">Explore more →</a>
       </li>
     </ul>
@@ -101,7 +100,7 @@
     <form class="form" action="#" method="post" id="form">
       <input class="input_name" type="text" placeholder="Your Name" id="name">
       <input class="input_email" type="text" placeholder="Your Email" id="email">
-      <button class="button" id="button">Join Newsletter →</button>
+      <button class="button" type="submit" id="button">Join Newsletter →</button>
     </form>
     <ul class="sociallinks" >
       <li>
@@ -128,5 +127,35 @@
   </div>
   </footer>
   
+<script>
+var form_name = document.getElementById("name");
+var form_email = document.getElementById("email");
+var form_button = document.getElementById("button");
+
+form_button.addEventListener("click", Validate);
+
+function Validate(event){
+  event.preventDefault();
+  var value = form_name.value;
+  var form = document.getElementById("form");
+
+  if (!value){
+      form_name.style.border = "1px solid red";
+  } 
+  else {
+    form_name.style.border = "1px solid gray";}
+    console.log(value);
+  var value = form_email.value;
+  if (!value){
+      form_email.style.border = "1px solid red";} 
+  else {
+      form_email.style.border = "1px solid gray";
+      console.log(value);
+      form.style.display = "none";
+      alert('Спасибо, Ваше сообщение отправлено!')}}
+
+</script>
+
+
 </body>
 </html>

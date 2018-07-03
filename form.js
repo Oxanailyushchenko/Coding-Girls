@@ -14,30 +14,25 @@ function Validate(event){
 			form_name.style.border = "1px solid red";
 	} 
 	else {
-			form_name.style.border = "1px solid gray";
-	}
-
+		form_name.style.border = "1px solid gray";}
 	var value = form_email.value;
 	if (!value){
-			form_email.style.border = "1px solid red";
-	} 
+			form_email.style.border = "1px solid red";} 
 	else {
-			form_email.style.border = "1px solid gray";
-	}
-
+			form_email.style.border = "1px solid gray";}
 	console.log(value);
 }
+
+form.addEventListener ('submit', Display);
+event.preventDefault();
 
 function Display(event){
 if (!submit){
 	form.style.display = "block";}
-else
-{
-	form.style.display = "none";}
+else{
+	form.style.display = "none";
+	alert('Спасибо, Ваше сообщение отправлено!');
 }
-
-form.addEventListener ('submit', Display);
-form.submit="alert('Спасибо, Ваше сообщение отправлено!')";
-
+}
 
 
