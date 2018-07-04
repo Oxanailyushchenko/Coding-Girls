@@ -45,16 +45,18 @@
 
 .title{
 	font-family: AvenirNextCyr-Regular, sans-serif;
+	font-weight: 400;
 }
 
 .subtitle{
 	font-family: OpenSans-Bold, sans-serif;
+	font-weight: 400;
 }
+
 
 .benefits_title{
 	font-family: OpenSans-Regular, sans-serif;
 	font-weight: 400;
-
 }
 
 .benefits_text{
