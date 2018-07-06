@@ -15,14 +15,16 @@
 .menu{
 	display: flex;
 	justify-content: space-between;
-	width: 500px;
+	width: 503px;
 	list-style: none;
 }
 
 .container{
 	display: flex;
 	justify-content: space-between;
-	padding: 50px;
+    padding-top: 38px;
+    padding-left: 50px;
+    padding-right: 60px;
 }
 
 .header_background_image{
@@ -30,19 +32,35 @@
 }
 
 .title{
+	font-family: AvenirNextCyr-Regular;
 	color: #ffffff;
 	font-size: 40px;
-	margin-top: 500px;
-	padding-left: 50px;
 	text-transform: uppercase;
-
+	left: 112px;
+	top: 564px;
+	position: relative;
+	display: inline-block;
 }
 
+.palka1{
+	color: #a2ca28;
+}
+
+.palka2{
+  color: #fd634e;
+}
+  
 .subtitle{
 	color: #ffffff;
 	font-size: 15px;
-	padding-left: 50px;
 	text-transform: uppercase;
+	position: absolute;
+	top: 718px;
+	left: 276px;
+}
+
+.section{
+	height: 471px;
 }
 
 .benefits{
@@ -50,10 +68,15 @@
 	justify-content: space-between;
 	list-style: none;
 	color: #ffffff;
-	width: 1188px;
+	width: 1155px;
 	margin: 0 auto;
-	padding: 50px;
+	padding-top: 112px;
+	padding-bottom: 161px;
+	padding-left: 0px;
+	padding-right: 15px;
+	position: relative;
 }
+
 
 .main{
 	background-color: #a2ca28;
@@ -62,12 +85,19 @@
 .read_more{
 	color: #ffffff;
 	text-decoration: none;
+	position: absolute;
+	top: 335px;
 }
 
 .benefits_title{
-	font-size: 24px;
+	font-size: 24.4px;
 	padding: 0px;
+	margin-top: 16px;
 
+}
+
+.benefit_images{
+	height: 50px;
 }
 
 .benefits_text{
@@ -75,18 +105,142 @@
 	display: flex;
 	color: #ffffff;
 	margin: 0 auto;
-	width: 297px;
+	line-height: 180%;
 	padding-bottom: 20px;
-
 }
 
 .block{
 	display: flex;
 	justify-content: space-between;
 	background-color: #ffffff;
-	width: 1188px;
+	width: 1182px;
 	height: 394px;
+	margin: 0 auto;	
+	padding: 0px;
+}
+
+.text-hover{
+	color: white;
+	opacity: 0;
+	position: absolute;
+	text-align: center;
+	transition: all 1s;
+	width: 100%;
+	top: 50%;
+	margin: 0;
+ 	margin-top: -13.5px;
+}
+
+.img1{
+	background: url(./Fitness/images/img1.jpg);
+	background-repeat: no-repeat;
+	width: 794px;
+	display: block;	
+	position: relative;
+}
+
+.active_users_bloc{
+	position: absolute;
+	display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-right: 44px;
+    width: 130px;
+    height: 20px;
+    top: 320px;
+    right: 0;
+    color: #fd634e;
+}
+
+.image_text{
+	font-size: 12px;
+    padding-top: 10px;
+    color: #fd634e;
+}
+
+.image_text2{
+	font-size: 12px;
+    padding-top: 10px;
+    color: #ffffff;
+}
+
+.logo_section{
+	top: 25;
+    right: 0;
+    color:#fd634e;
+}
+
+.img1:hover .text-hover{
+  opacity: 1;
+}
+
+.img1:hover:before{
+  opacity: 1;
+}
+
+.img1:before{
+	content: '';
+	opacity: 0;
+	display: block;
+	background: rgba(0, 0, 0, 0.5);
+	width: 780px;
+	height: 394px;
+	transition: all 1s;
+}
+
+.img2{
+	background: url(./Fitness/images/img2.jpg);
+	background-repeat: no-repeat;
+	width: 780px;
+	height: 394px;
+	position: relative;
+	display: block;
+	margin-bottom: 0px;
+}
+
+.active_users_bloc2{
+	position: absolute;
+	display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    width: 140px;
+    height: 20px;
+    top: 320px;
+    left: 0;
+}
+.img2:hover .text-hover{
+	opacity: 1;
+}
+
+.img2:hover:before{
+	opacity: 1;
+}
+
+.img2:before{
+	content: '';
+	opacity: 0;
+	display: block;
+	background: rgba(0, 0, 0, 0.5);
+	width: 780px;
+	height: 394px;
+	transition: all 1s;
+}
+
+.hover-container{
+	display: block;
+}
+
+.text-hover{
+	color: white;
+	opacity: 0;
+	position: absolute;
+	text-align: center;
+	transition: all 1s;
+	width: 100%;
+	top: 50%;
 	margin: 0 auto;
+	margin-top: -28px;
 }
 
 .block_img{
@@ -95,28 +249,266 @@
 
 .block_content{
 	text-align: center;
-	padding: 68px;
-	width: 394px;
-	margin: 0 auto;
+	width: 445px;
+	height: 394px;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-top: 50px;
 }
 
 .block_title{
 	color: #a2ca28;
 	text-transform: uppercase;
 	font-size: 35px;
+	margin: 0px;
+	padding-top: 5px;
+	padding-bottom: 20px;
 }
 
 .block_subtitle{
+	padding-top: 5px;
 	color: #fd634e;
 	text-transform: uppercase;
 	font-size: 14px;
+	margin: 0px;
 }	
+
+.block_logo{
+    padding-top: 15px;
+}
 
 .block_text{
 	font-size: 14px;
+	line-height: 185%;
+	padding-bottom: -15px;
 }
 
 .block_link{
 	color: #a2ca28;
 	font-size: 14px;
+	top: 0px;
+
+}
+
+.footer{
+	height: 200px;
+	background-color: #0d1119;
+}
+
+.footer_content{
+	display: flex;
+	justify-content: space-between	;
+	width: 1182px;
+	margin: 0 auto;
+	position: relative;
+	top: 40px;
+}
+
+.form{
+	display: flex;
+	margin-left: 60px;
+	font-size: 14px;
+	height: 80px;
+
+}
+
+.input_name{
+	font-family: ProximaNova-Reg, sans-serif;
+	border: 1px #0d1119;
+	padding-left: 21px;
+	padding-bottom: 0px;
+	margin-top: 30px;
+	border-radius: 3px;
+	margin-right: 6px;
+
+}
+
+.input_email{
+	font-family: ProximaNova-Reg, sans-serif;
+	border: 1px #0d1119;
+	padding-left: 20px;
+	padding-right: 140px;
+	padding-bottom: 0px;
+	margin-right: 6px;
+	margin-top: 30px;
+	border-radius: 2px;
+}
+
+.button{
+	font-family: ProximaNova-Semibold, sans-serif;
+	color: white;
+	background-color: #a2ca28;
+	border: 1px #0d1119;
+	padding-right: 40px;
+	padding-left: 35px;
+	padding-bottom: 0px;
+	margin-right: 15px;
+	margin-top: 30px;
+	border-radius: 2px;
+}
+
+.sociallinks{
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+.socialicon_fb{
+	background: #2e3192;
+	width: 50px;
+	height: 50px;
+	display: block;
+	justify-content: space-between;
+	border-radius: 50%;
+	position: relative;
+	margin-right: 13px;
+	margin-top:6px;
+}
+
+@keyframes socialicon_fb{
+0%{
+	background:#2e3192} 
+100%{
+    background-color: #0d1119;
+  }
+}
+
+
+.socialicon_fb:hover{
+	animation-name: socialicon_fb;
+	animation-duration: 0.5s;
+	animation-direction: normal;
+	animation-iteration-count: 1;	
+	animation-fill-mode: forwards;
+}
+
+.socialicon_fb:before{
+	content: '';
+	background-image: url(https://static1.squarespace.com/static/588e3804893fc08d03a4bf17/t/58e5aa66b3db2bcaeea285c3/1491446682303/Icon-FB.png);
+	background-size: 40px 40px;
+	width: 40px;
+	height: 40px;
+	top: 5px;
+	left: 5px;
+	position: absolute;
+}
+
+.socialicon_tw{
+	background: #00aeef;
+	width: 50px;
+	height: 50px;
+	display: block;
+	justify-content: space-between;
+	border-radius: 50%;
+	position: relative;
+	margin-right: 15px;
+	margin-top:6px;
+}
+@keyframes socialicon_tw{
+0%{
+	background:#00aeef}
+100% {
+    background-color: #0d1119;
+  }
+}
+
+
+.socialicon_tw:hover{
+	animation-name: socialicon_tw;
+	animation-duration: 0.5s;
+	animation-direction: normal;
+	animation-iteration-count: 1;	
+	animation-fill-mode: forwards;
+}
+
+
+.socialicon_tw:before{
+	content: '';
+	background-image: url(https://legoutdesautres.lehavre.fr/sites/default/themes/minisite/images/common/socials/twitter.png);
+	background-size: 40px 40px;
+	width: 45px;
+	height: 50px;
+	position: absolute;
+	top: 6px;
+	left: 6px;
+}
+
+.socialicon_yt{
+	background: #ed3123;
+	width: 50px;
+	height: 50px;
+	display: block;
+	justify-content: space-between;
+	border-radius: 50%;
+	position: relative;
+	margin-right: 13px;
+	margin-top:6px;
+}
+
+@keyframes socialicon_yt{
+0%{
+	background:#ed3123} 
+100%{
+    background-color: #0d1119;
+  }
+}
+
+
+.socialicon_yt:hover{
+	animation-name: socialicon_yt;
+	animation-duration: 0.5s;
+	animation-direction: normal;
+	animation-iteration-count: 1;	
+	animation-fill-mode: forwards;
+}
+
+.socialicon_yt:before{
+	content: '';
+	background-image: url(http://www.capecod.com.au/wp-content/uploads/2017/02/youtube-icon-300x300.png);
+	background-size: 28px 28px;
+	background-repeat: no-repeat;
+	width: 45px;
+	height: 45px;
+	position: absolute;
+	top: 11px;
+	left: 11px;
+}
+
+.socialicon_ln{
+	background: #171a8f;
+	width: 50px;
+	height: 50px;
+	display: block;
+	justify-content: space-between;
+	border-radius: 50%;	
+	position: relative;
+	margin-top:6px;
+}
+
+@keyframes socialicon_ln{
+0%{
+	background:#171a8f}
+	 
+100% {
+    background-color: #0d1119;
+  }
+}
+
+
+.socialicon_ln:hover{
+	animation-name: socialicon_ln;
+	animation-duration: 0.5s;
+	animation-direction: normal;
+	animation-iteration-count: 1;	
+	animation-fill-mode: forwards;
+}
+.socialicon_ln:before{
+	content: '';
+	background-image: url(https://c.fastcdn.co/u/0bc8903d/27002671-0-linkedInicon.png);
+	background-size: 35px 35px;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 7px;
+	left: 9px;
 }

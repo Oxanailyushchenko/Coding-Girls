@@ -1,0 +1,108 @@
+@font-face{
+	font-family: AvenirNextCyr-Regular;
+	src: url('./fonts/AvenirNextCyr-Regular.woff') format('woff'),
+		 url('./fonts/AvenirNextCyr-Regular.eot') format('eot');
+}
+
+@font-face{
+	font-family: OpenSans-Bold;
+	src: url('./fonts/OpenSans-Bold.ttf') format('ttf');
+	
+}
+
+@font-face{
+	font-family: OpenSans-Regular;
+	src: url('./fonts/OpenSans-Regular.ttf') format('ttf');
+}	
+
+@font-face{
+	font-family: ProximaNova-Reg;
+	src: url('./fonts/ProximaNova-Reg.otf') format('otf'),
+		 url('./fonts/ProximaNova-Reg.ttf') format('ttf');
+}
+
+
+@font-face{
+	font-family: Montserrat-Regular;
+	src: url('./fonts/Montserrat-Regular.ttf') format('ttf'),
+		 url('./fonts/Montserrat-Regular.otf') format('otf');
+}
+
+@font-face{
+	font-family: OpenSans-Light;
+	src: url('./fonts/OpenSans-Light.ttf');
+	
+}
+
+@font-face{
+	font-family: ProximaNova-Semibold;
+	src: url('./fonts/ProximaNova-Semibold.ttf') format('ttf'),
+		 url('./fonts/ProximaNova-Semibold.eot') format('eot'),
+		 url('./fonts/ProximaNova-Semibold.woff') format('woff');
+}
+}
+
+
+.title{
+	font-family: AvenirNextCyr-Regular, sans-serif;
+	font-weight: 400;
+}
+
+.subtitle{
+	font-family: OpenSans-Bold, sans-serif;
+	font-weight: 400;
+}
+
+
+.benefits_title{
+	font-family: OpenSans-Regular, sans-serif;
+	font-weight: 400;
+}
+
+.benefits_text{
+	font-family: ProximaNova-Reg, sans-serif;
+}
+
+.read_more{
+	font-family: ProximaNova-Reg, sans-serif;
+}
+
+.block_subtitle{
+	font-family: Montserrat-Regular, sans-serif;
+}
+
+.block_title{
+	font-family: OpenSans-Light, sans-serif;
+	font-weight: 100;
+}
+
+.block_text{
+	font-family: OpenSans-Regular, sans-serif;
+}
+
+
+.block_link{
+	font-family: OpenSans-Regular, sans-serif;
+}
+
+.image_text{
+	font-family: OpenSans-Regular, sans-serif;
+}
+
+.image_text2{
+	font-family: OpenSans-Regular, sans-serif;
+}
+
+
+.input{
+	font-family: ProximaNova-Reg, sans-serif;
+	color: #a7b3b9;
+}
+
+.button{
+	font-family: ProximaNova-Semibold, sans-serif;
+}
+
+.menu{
+	font-family: AvenirNextCyr-Regular, sans-serif;
+}
